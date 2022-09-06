@@ -1,7 +1,7 @@
-package com.joseg.openfeigndemo.client.controller;
+package com.joseg.openfeigndemo.controller;
 
-import com.joseg.openfeigndemo.client.JsonPlaceHolderFeignClient;
-import com.joseg.openfeigndemo.client.model.Post;
+import com.joseg.openfeigndemo.client.jsonplaceholder.JsonPlaceHolderFeignClient;
+import com.joseg.openfeigndemo.client.jsonplaceholder.model.Post;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

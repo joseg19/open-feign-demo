@@ -1,4 +1,4 @@
-package com.joseg.openfeigndemo.client.model;
+package com.joseg.openfeigndemo.client.jsonplaceholder.model;
 
 import lombok.Data;
 
